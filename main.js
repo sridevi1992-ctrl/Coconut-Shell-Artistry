@@ -49,8 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Form Submission Handler (WhatsApp Integration)
   const bookingForm = document.getElementById('bookingForm');
   if(bookingForm) {
-    bookingForm.addEventListener('submit', (e) => {
+    bookingForm.addEventListener('submit', async (e) => {
       e.preventDefault();
+      
+      // Show loading state on button
+      const submitBtn = bookingForm.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn.innerText;
+      submitBtn.innerText = 'Sending...';
+      submitBtn.disabled = true;
       
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
@@ -63,7 +69,22 @@ document.addEventListener('DOMContentLoaded', () => {
       
       const message = document.getElementById('message').value;
 
-      // Construct the message
+      // Send data to Google Sheets
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbx83IsErGI2zvE55vXLD3LWQPdgE6gM7JoOXKTe4q3Q5ul2bPPBou3RaIUcz1UByaVi/exec';
+      const formData = { name, email, phone, address, pkg, message };
+
+      try {
+        await fetch(scriptURL, {
+          method: 'POST',
+          mode: 'no-cors', // Required for Google Apps Script to avoid CORS errors
+          headers: { 'Content-Type': 'text/plain' },
+          body: JSON.stringify(formData)
+        });
+      } catch (error) {
+        console.error('Error saving to Google Sheets:', error);
+      }
+
+      // Construct the WhatsApp message
       const waMessage = `*New Inquiry for Coconut Shell Artistry*\n\n*Name:* ${name}\n*Email:* ${email}\n*Contact Number:* ${phone}\n*Delivery Address:* ${address}\n*Selected Package:* ${pkg}\n*Message:* ${message}`;
       
       // Format phone number to WhatsApp URL format
@@ -73,8 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
       // Open WhatsApp in a new tab
       window.open(whatsappUrl, '_blank');
       
-      // Reset form
+      // Reset form and button
       bookingForm.reset();
+      submitBtn.innerText = originalBtnText;
+      submitBtn.disabled = false;
     });
   }
   // Language Switcher Logic
