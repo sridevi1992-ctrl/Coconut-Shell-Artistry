@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const name = document.getElementById('name').value;
       const email = document.getElementById('email').value;
       const phone = document.getElementById('phone').value;
+      const address = document.getElementById('address').value;
       
       // Get selected package text instead of value for better reading
       const serviceSelect = document.getElementById('service');
@@ -63,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const message = document.getElementById('message').value;
 
       // Construct the message
-      const waMessage = `*New Inquiry for Coconut Shell Artistry*\n\n*Name:* ${name}\n*Email:* ${email}\n*Contact Number:* ${phone}\n*Selected Package:* ${pkg}\n*Message:* ${message}`;
+      const waMessage = `*New Inquiry for Coconut Shell Artistry*\n\n*Name:* ${name}\n*Email:* ${email}\n*Contact Number:* ${phone}\n*Delivery Address:* ${address}\n*Selected Package:* ${pkg}\n*Message:* ${message}`;
       
       // Format phone number to WhatsApp URL format
       const targetPhone = '916362115958';
