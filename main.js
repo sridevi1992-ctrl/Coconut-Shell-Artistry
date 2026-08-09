@@ -52,16 +52,35 @@ document.addEventListener('DOMContentLoaded', () => {
     bookingForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       
+      const nameInput = document.getElementById('name');
+      const emailInput = document.getElementById('email');
+      const phoneInput = document.getElementById('phone');
+      const addressInput = document.getElementById('address');
+      const messageInput = document.getElementById('message');
+
+      const name = nameInput.value.trim();
+      const email = emailInput.value.trim();
+      const phone = phoneInput.value.trim();
+      const address = addressInput.value.trim();
+      const message = messageInput.value.trim();
+
+      // Validation
+      if (!name || !email || !phone || !address) {
+        alert('Please fill out all required fields with valid text (no blank spaces).');
+        return;
+      }
+
+      // Prevent just hyphens or invalid strings
+      if (/^[- ]+$/.test(name) || /^[- ]+$/.test(phone) || /^[- ]+$/.test(address)) {
+        alert('Please enter valid information without just hyphens or spaces.');
+        return;
+      }
+
       // Show loading state on button
       const submitBtn = bookingForm.querySelector('button[type="submit"]');
       const originalBtnText = submitBtn.innerText;
       submitBtn.innerText = 'Sending...';
       submitBtn.disabled = true;
-      
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const phone = document.getElementById('phone').value;
-      const address = document.getElementById('address').value;
       
       // Get selected package text instead of value for better reading
       const serviceSelect = document.getElementById('service');
