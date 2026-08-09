@@ -71,14 +71,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Send data to Google Sheets
       const scriptURL = 'https://script.google.com/macros/s/AKfycbx83IsErGI2zvE55vXLD3LWQPdgE6gM7JoOXKTe4q3Q5ul2bPPBou3RaIUcz1UByaVi/exec';
-      const formData = { name, email, phone, address, pkg, message };
+      
+      const formData = new FormData();
+      formData.append('name', name);
+      formData.append('email', email);
+      formData.append('phone', phone);
+      formData.append('address', address);
+      formData.append('pkg', pkg);
+      formData.append('message', message);
 
       try {
         await fetch(scriptURL, {
           method: 'POST',
-          mode: 'no-cors', // Required for Google Apps Script to avoid CORS errors
-          headers: { 'Content-Type': 'text/plain' },
-          body: JSON.stringify(formData)
+          body: formData
         });
       } catch (error) {
         console.error('Error saving to Google Sheets:', error);
