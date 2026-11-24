@@ -19,7 +19,7 @@ const replacements = [
 
   // About
   ['<h2 class="section-title">Our Heritage & Craft</h2>', '<h2 class="section-title" data-i18n="about_title">Our Heritage & Craft</h2>'],
-  ['<p>At Coconut Shell Artistry, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.</p>', '<p data-i18n="about_p1">At Coconut Shell Artistry, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.</p>'],
+  ['<p>At Coco Art, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.</p>', '<p data-i18n="about_p1">At Coco Art, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.</p>'],
   ['<p>Our master artisans spend hours hand-carving each piece, turning a simple offering into a cherished keepsake of your union. Whether you desire traditional motifs of Ganesha, elegant floral patterns, or custom couple portraits, we bring your vision to life with precision and devotion.</p>', '<p data-i18n="about_p2">Our master artisans spend hours hand-carving each piece, turning a simple offering into a cherished keepsake of your union. Whether you desire traditional motifs of Ganesha, elegant floral patterns, or custom couple portraits, we bring your vision to life with precision and devotion.</p>'],
 
   // Services
@@ -71,7 +71,7 @@ const replacements = [
 
   // Footer
   ['<p>Preserving tradition through art.</p>', '<p data-i18n="footer_slogan">Preserving tradition through art.</p>'],
-  ['<p>&copy; 2026 Coconut Shell Artistry. All rights reserved.</p>', '<p data-i18n="footer_rights">&copy; 2026 Coconut Shell Artistry. All rights reserved.</p>']
+  ['<p>&copy; 2026 Coco Art. All rights reserved.</p>', '<p data-i18n="footer_rights">&copy; 2026 Coco Art. All rights reserved.</p>']
 ];
 
 files.forEach(file => {

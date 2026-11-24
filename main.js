@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Construct the WhatsApp message
-      const waMessage = `*New Inquiry for Coconut Shell Artistry*\n\n*Name:* ${name}\n*Email:* ${email}\n*Contact Number:* ${phone}\n*Delivery Address:* ${address}\n*Selected Package:* ${pkg}\n*Message:* ${message}`;
+      const waMessage = `*New Inquiry for Coco Art*\n\n*Name:* ${name}\n*Email:* ${email}\n*Contact Number:* ${phone}\n*Delivery Address:* ${address}\n*Selected Package:* ${pkg}\n*Message:* ${message}`;
       
       // Format phone number to WhatsApp URL format
       const targetPhone = '916362115958';

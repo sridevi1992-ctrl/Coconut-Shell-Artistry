@@ -10,7 +10,7 @@ export const translations = {
     hero_title: "Exquisite Carvings for Your Sacred Vows",
     hero_desc: "Elevate your wedding rituals with our premium, custom-carved coconuts. A perfect blend of tradition and artistry.",
     about_title: "Our Heritage & Craft",
-    about_p1: "At Coconut Shell Artistry, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.",
+    about_p1: "At Coco Art, we honor the sacred traditions of Indian weddings by creating breathtaking, intricately carved coconuts. The coconut (Shreefal) symbolizes prosperity, fertility, and divine blessing.",
     about_p2: "Our master artisans spend hours hand-carving each piece, turning a simple offering into a cherished keepsake of your union. Whether you desire traditional motifs of Ganesha, elegant floral patterns, or custom couple portraits, we bring your vision to life with precision and devotion.",
     services_title: "Featured Services",
     serv_1_title: "Traditional Motifs",
@@ -54,7 +54,7 @@ export const translations = {
     contact_msg: "Tell us about your vision...",
     contact_btn: "Send Inquiry",
     footer_slogan: "Preserving tradition through art.",
-    footer_rights: "© 2026 Coconut Shell Artistry. All rights reserved."
+    footer_rights: "© 2026 Coco Art. All rights reserved."
   },
   hi: {
     nav_home: "होम",
@@ -67,7 +67,7 @@ export const translations = {
     hero_title: "आपके पवित्र विवाह के लिए उत्कृष्ट नक्काशी",
     hero_desc: "हमारे प्रीमियम, कस्टम-नक्काशीदार नारियल के साथ अपनी शादी की रस्मों को खास बनाएं। परंपरा और कलात्मकता का एक आदर्श मिश्रण।",
     about_title: "हमारी विरासत और शिल्प",
-    about_p1: "कोकोनट शेल आर्टिस्ट्री में, हम लुभावने, जटिल नक्काशीदार नारियल बनाकर भारतीय शादियों की पवित्र परंपराओं का सम्मान करते हैं। नारियल (श्रीफल) समृद्धि, उर्वरता और ईश्वरीय आशीर्वाद का प्रतीक है।",
+    about_p1: "कोको आर्ट में, हम लुभावने, जटिल नक्काशीदार नारियल बनाकर भारतीय शादियों की पवित्र परंपराओं का सम्मान करते हैं। नारियल (श्रीफल) समृद्धि, उर्वरता और ईश्वरीय आशीर्वाद का प्रतीक है।",
     about_p2: "हमारे कुशल कारीगर हर एक नारियल को हाथों से तराशने में घंटों बिताते हैं, जिससे एक साधारण भेंट आपके मिलन की एक प्यारी निशानी बन जाती है। चाहे आप गणेश जी के पारंपरिक रूपांकन चाहते हों, सुरुचिपूर्ण पुष्प पैटर्न, या कस्टम युगल चित्र, हम सटीकता और भक्ति के साथ आपकी दृष्टि को जीवन में लाते हैं।",
     services_title: "विशेष सेवाएं",
     serv_1_title: "पारंपरिक रूपांकन",
@@ -111,7 +111,7 @@ export const translations = {
     contact_msg: "हमें अपनी दृष्टि के बारे में बताएं...",
     contact_btn: "पूछताछ भेजें",
     footer_slogan: "कला के माध्यम से परंपरा को संरक्षित करना।",
-    footer_rights: "© 2026 कोकोनट शेल आर्टिस्ट्री। सर्वाधिकार सुरक्षित।"
+    footer_rights: "© 2026 कोको आर्ट। सर्वाधिकार सुरक्षित।"
   },
   kn: {
     nav_home: "ಮುಖಪುಟ",
@@ -124,7 +124,7 @@ export const translations = {
     hero_title: "ನಿಮ್ಮ ಪವಿತ್ರ ವಿವಾಹಕ್ಕಾಗಿ ಅದ್ಭುತ ಕೆತ್ತನೆಗಳು",
     hero_desc: "ನಮ್ಮ ಪ್ರೀಮಿಯಂ, ಕಸ್ಟಮ್-ಕೆತ್ತಿದ ತೆಂಗಿನಕಾಯಿಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಮದುವೆಯ ಆಚರಣೆಗಳನ್ನು ವಿಶೇಷಗೊಳಿಸಿ. ಸಂಪ್ರದಾಯ ಮತ್ತು ಕಲಾತ್ಮಕತೆಯ ಪರಿಪೂರ್ಣ ಮಿಶ್ರಣ.",
     about_title: "ನಮ್ಮ ಪರಂಪರೆ ಮತ್ತು ಕರಕುಶಲತೆ",
-    about_p1: "ಕೋಕೊನಟ್ ಶೆಲ್ ಆರ್ಟಿಸ್ಟ್ರಿಯಲ್ಲಿ, ಉಸಿರುಕಟ್ಟುವ, ಸಂಕೀರ್ಣವಾಗಿ ಕೆತ್ತಿದ ತೆಂಗಿನಕಾಯಿಗಳನ್ನು ರಚಿಸುವ ಮೂಲಕ ನಾವು ಭಾರತೀಯ ವಿವಾಹಗಳ ಪವಿತ್ರ ಸಂಪ್ರದಾಯಗಳನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ತೆಂಗಿನಕಾಯಿ (ಶ್ರೀಫಲ) ಸಮೃದ್ಧಿ, ಫಲವತ್ತತೆ ಮತ್ತು ದೈವಿಕ ಆಶೀರ್ವಾದವನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
+    about_p1: "ಕೋಕೋ ಆರ್ಟ್‌ನಲ್ಲಿ, ಉಸಿರುಕಟ್ಟುವ, ಸಂಕೀರ್ಣವಾಗಿ ಕೆತ್ತಿದ ತೆಂಗಿನಕಾಯಿಗಳನ್ನು ರಚಿಸುವ ಮೂಲಕ ನಾವು ಭಾರತೀಯ ವಿವಾಹಗಳ ಪವಿತ್ರ ಸಂಪ್ರದಾಯಗಳನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ತೆಂಗಿನಕಾಯಿ (ಶ್ರೀಫಲ) ಸಮೃದ್ಧಿ, ಫಲವತ್ತತೆ ಮತ್ತು ದೈವಿಕ ಆಶೀರ್ವಾದವನ್ನು ಸಂಕೇತಿಸುತ್ತದೆ.",
     about_p2: "ನಮ್ಮ ನುರಿತ ಕುಶಲಕರ್ಮಿಗಳು ಪ್ರತಿಯೊಂದು ತುಣುಕನ್ನು ಕೈಯಿಂದ ಕೆತ್ತಲು ಗಂಟೆಗಟ್ಟಲೆ ಕಳೆಯುತ್ತಾರೆ, ಸರಳವಾದ ಕೊಡುಗೆಯನ್ನು ನಿಮ್ಮ ಒಕ್ಕೂಟದ ಪಾಲಿಸಬೇಕಾದ ಸ್ಮರಣಿಕೆಯಾಗಿ ಪರಿವರ್ತಿಸುತ್ತಾರೆ. ಗಣೇಶನ ಸಾಂಪ್ರದಾಯಿಕ ಲಕ್ಷಣಗಳು, ಸೊಗಸಾದ ಹೂವಿನ ಮಾದರಿಗಳು ಅಥವಾ ಕಸ್ಟಮ್ ಜೋಡಿ ಭಾವಚಿತ್ರಗಳನ್ನು ನೀವು ಬಯಸುತ್ತೀರೋ, ನಾವು ನಿಮ್ಮ ದೃಷ್ಟಿಯನ್ನು ನಿಖರತೆ ಮತ್ತು ಭಕ್ತಿಯಿಂದ ಜೀವಕ್ಕೆ ತರುತ್ತೇವೆ.",
     services_title: "ವೈಶಿಷ್ಟ್ಯಗೊಳಿಸಿದ ಸೇವೆಗಳು",
     serv_1_title: "ಸಾಂಪ್ರದಾಯಿಕ ಲಕ್ಷಣಗಳು",
@@ -168,6 +168,6 @@ export const translations = {
     contact_msg: "ನಿಮ್ಮ ದೃಷ್ಟಿಯ ಬಗ್ಗೆ ನಮಗೆ ತಿಳಿಸಿ...",
     contact_btn: "ವಿಚಾರಣೆಯನ್ನು ಕಳುಹಿಸಿ",
     footer_slogan: "ಕಲೆಯ ಮೂಲಕ ಸಂಪ್ರದಾಯವನ್ನು ಸಂರಕ್ಷಿಸುವುದು.",
-    footer_rights: "© 2026 ಕೋಕೊನಟ್ ಶೆಲ್ ಆರ್ಟಿಸ್ಟ್ರಿ. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ."
+    footer_rights: "© 2026 ಕೋಕೋ ಆರ್ಟ್. ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ."
   }
 };
