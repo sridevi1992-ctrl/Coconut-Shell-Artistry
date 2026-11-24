@@ -85,8 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Get selected package text instead of value for better reading
       const serviceSelect = document.getElementById('service');
       const pkg = serviceSelect.options[serviceSelect.selectedIndex].text;
-      
-      const message = document.getElementById('message').value;
 
       // Send data to Google Sheets
       const scriptURL = 'https://script.google.com/macros/s/AKfycbx83IsErGI2zvE55vXLD3LWQPdgE6gM7JoOXKTe4q3Q5ul2bPPBou3RaIUcz1UByaVi/exec';
